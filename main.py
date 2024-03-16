@@ -1,27 +1,17 @@
 from pathlib import Path
-from dataclasses import dataclass
-from PIL.Image import Image
+from PIL.Image import Image, open
 from typing import List
 
-@dataclass
-class Point:
-    x: int
-    y: int
+from classes import Hold, Route
+from mocks import mock_holds_detection
 
-@dataclass
-class Hold:
-    bounding_box: List[Point]
-    dominant_color: List[int]
 
-@dataclass
-class Route:
-    holds: List[Hold]
 
 def read_image(image_path: Path) -> Image:
-    raise NotImplementedError
+    return open(image_path)
 
 def detect_holds(image: Image) -> List[Hold]:
-    raise NotImplementedError
+    return mock_holds_detection()
 
 def detect_routes(image: Image, holds: List[Hold]) -> List[Route]:
     raise NotImplementedError
@@ -33,7 +23,7 @@ def find_similar_routes(route: Route, database) -> List[Route]:
     raise NotImplementedError
 
 def main():
-    image_path = Path("")
+    image_path = Path("images/example_wall.jpg")
     database = Path("")
     image = read_image(image_path)
     holds = detect_holds(image)
