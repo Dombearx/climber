@@ -1,0 +1,114 @@
+[
+    {
+        "bounding_box": {
+            "top": 71,
+            "left": 8,
+            "bottom": 143,
+            "right": 143 
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 120,
+            "left": 273,
+            "bottom": 184,
+            "right": 343
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 300,
+            "left": 305,
+            "bottom": 358,
+            "right": 422
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 352,
+            "left": 425,
+            "bottom": 415,
+            "right": 493
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 507,
+            "left": 564,
+            "bottom": 542,
+            "right": 586
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 596,
+            "left": 536,
+            "bottom": 632,
+            "right": 554
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 626,
+            "left": 544,
+            "bottom": 657,
+            "right": 572
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 95,
+            "left": 474,
+            "bottom": 171,
+            "right": 529
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 240,
+            "left": 559,
+            "bottom": 305,
+            "right": 617
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 297,
+            "left": 637,
+            "bottom": 352,
+            "right": 679
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 378,
+            "left": 720,
+            "bottom": 449,
+            "right": 760
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 482,
+            "left": 610,
+            "bottom": 567,
+            "right": 673
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 523,
+            "left": 680,
+            "bottom": 578,
+            "right": 752
+        }
+    },
+    {
+        "bounding_box": {
+            "top": 674,
+            "left": 724,
+            "bottom": 745,
+            "right": 790
+        }
+    }
+]
